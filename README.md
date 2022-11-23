@@ -3,7 +3,7 @@ Repositorio de scripts hechos a lo largo del semestre Ago-Dic 2022 de la materia
 > Datos del alumno:
 > Daniel Arreaga Escareño 2029652
 ## Secciones:
-1. [Manejo de APIs]()
+1. [Manejo de APIs](https://github.com/Daremm/PIA_Lab_Cibersec/tree/main/Manejo_de_API)
 2. [Scripting en Powershell]()
 3. [Scripting en bash]()
 4. [Encoding & Decoding]()
