@@ -1,6 +1,7 @@
 #!/bin/bash
 # Script netdiscover.sh
 # 27/09/22 - Daniel Arreaga Escareño
+# Matricula: 2029652
 #
 # Determinando el segmento de red
 which ifconfig && { echo "ifconfig existe...";
