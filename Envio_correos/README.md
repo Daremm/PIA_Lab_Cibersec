@@ -2,3 +2,11 @@
 El script que está en esta carpeta nos permite enviar un correo mediante SMTP a un correo
 especificado, en el cual podemos agregar fotos, asunto y demás
 > El cuerpo del correo está escrito en HTML, y también debemos generar una key de nuestro correo para ingresarlo como contraseña
+## Requerimientos
+Para que el script funcione adecuadamente, necesitamos Python 3, además las siguientes librerías:
+- smtplib
+- ssl
+- email
+- email.mime.base
+- email.mime.text
+- email.mime.multipart
