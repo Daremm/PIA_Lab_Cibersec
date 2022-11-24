@@ -21,7 +21,7 @@ def call_key():
 #
 #Ahora cifraremos un mensaje almacenado y codificado previamente
 key = call_key()
-banner = "Hola mi nombre es Daniel Arreaga Escareno".encode()
+banner = "Hola mi nombre es Daniel Ar".encode()
 a = Fernet(key)
 coded_banner = a.encrypt(banner)
 print(coded_banner)
