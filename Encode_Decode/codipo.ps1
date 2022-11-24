@@ -15,7 +15,7 @@ Write-Host "El contenido del archivo CODIFICADO es: " $etext -ForegroundColor Gr
 # Decodificando contento de un archivo
 #
 Write-Host "DECODIFICANDO el texto previo:"
-[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String($etext)) | Out-File -Encoding "ASCII" 'C:\Users\danie\OneDrive\Documentos\PS Scripts\decode_secret.txt'
+[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String($etext)) | Out-File -Encoding "ASCII" #ruta
 $outfile2 = Get-Content #ruta
 Write-Host "El texto decodificado es el siguiente:"-ForegroundColor Green
 Write-Host "DECODIFICADO: " $outfile2
