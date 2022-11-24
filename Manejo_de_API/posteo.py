@@ -6,7 +6,7 @@ import json
 
 if __name__ == '__main__':
     url='http://httpbin.org/post'
-    argumentos={'nombre':'Daniel','matricula':'2029652','curso':'Programación para Ciberseguridad'}
+    argumentos={'nombre':'Daniel','matricula':'','curso':'Programación para Ciberseguridad'}
 
     response= requests.post(url, params=argumentos)
 
