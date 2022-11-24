@@ -13,7 +13,7 @@ date
 read -p "Opción  [ 1 - 4 ] " c
 case $c in
         1) $HOME/Documents/netdiscover.sh;;
-        2) $HOME/Documents/portscanv1.sh 192.168.74;;
+        2) $HOME/Documents/portscanv1.sh #puerto;;
         3) $HOME/Documents/welcome.sh;;
         4) echo "Bye!"; exit 0;;
 esac
