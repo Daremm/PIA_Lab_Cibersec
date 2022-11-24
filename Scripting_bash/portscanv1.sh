@@ -6,7 +6,7 @@
 direccion_ip=$1
 puertos="20,21,22,23,25,50,51,53,80,110,119,135,136,137,138,139,143,161,162,389,443,445,636,1025,1443,3389,5985,8080,10000"
 # Verificando que parametro ip no vengan vacio
-[ $# -eq 0 ] && { echo "Modo de uso $0 192.168.74."; exit 1; }
+[ $# -eq 0 ] && { echo "Modo de uso $0 ip"; exit 1; } #Poner su ip en "ip"
 #
 # Bucle for para cada puerto en $puertos
 #
