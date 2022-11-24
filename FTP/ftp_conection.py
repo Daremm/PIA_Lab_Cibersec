@@ -7,16 +7,16 @@
 from ftplib import FTP
 
 #Estableciendo conexión a servidor
-ftp = FTP("192.168.74.128")
+ftp = FTP("Aqui va la ip")
 
 #Iniciamos sesión
-ftp.login("danielito", "2029652")
+ftp.login("usuario", "contraseña")
 
 #Cambiamos de directorio
 ftp.cwd("upload")
 
 #Abrimos el archivo
-with open("C:/Users/danie/OneDrive/Documentos/VSC/Lab_Cibersec/ADVERTENCIA.txt", "rb") as text_file:
+with open("C:/ruta/ADVERTENCIA.txt", "rb") as text_file:
     #Exportamos el archivo, en este caso ADVERTENCIA.txt
     ftp.storlines("STOR ADVERTENCIA.txt", text_file)
 
