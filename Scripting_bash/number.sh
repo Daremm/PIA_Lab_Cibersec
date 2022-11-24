@@ -1,6 +1,7 @@
 #!/bin/bash
 # Script <number.sh> 
 # 27/09/2022 - Daniel Arreaga Escareño 
+# Matricula: 2029652
 # 
 
 # Leer 3 numeros asignados a 3 variables
