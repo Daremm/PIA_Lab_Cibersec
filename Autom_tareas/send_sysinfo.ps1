@@ -31,13 +31,13 @@ $array | Export-Csv -Path C:\Users\danie\OneDrive\Escritorio\test.csv -NoTypeInf
 #
 #### Para Envio de correo
 #
-$Username = "dannyarry22@gmail.com"; # Aqui va tu cuenta de gmail
-$Password = "oewueajvrjlttpze";      # Aqui va tu password de aplicación
-$path = "C:\Users\danie\OneDrive\Escritorio\test.csv";       # Aqui va la ruta de el archivo csv generado previamente
+$Username = ""; # Aqui va tu cuenta de gmail
+$Password = "";      # Aqui va tu password de aplicación
+$path = "C:\ruta\test.csv";       # Aqui va la ruta de el archivo csv generado previamente
 
 function Send-ToEmail([string]$email, [string]$attachmentpath){
     $message = new-object Net.Mail.MailMessage;
-    $message.From = "dannyarry22@gmail.com"; # Aqui va tu cuenta de gmail.
+    $message.From = ""; # Aqui va tu cuenta de gmail.
     $message.To.Add($email);
     $message.Subject = "INFO DE EQUIPO."; #Asunto del correo
     $message.Body = "Envío de información de equipo"; #Cuerpo o Mensaje del correo.
@@ -51,4 +51,4 @@ function Send-ToEmail([string]$email, [string]$attachmentpath){
     write-host "Mail Sent" ; 
     $attachment.Dispose();
  }
-Send-ToEmail -email "dannyarry22@gmail.com" -attachmentpath $path; # En email pones el destinatario
+Send-ToEmail -email "" -attachmentpath $path; # En email pones el destinatario
