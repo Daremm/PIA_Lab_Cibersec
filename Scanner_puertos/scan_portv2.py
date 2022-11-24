@@ -23,9 +23,9 @@ def scan(addr, port):
 # lista de puertos a escanear
 ports=[21, 22, 25, 80]
 
-# bucle por todas las ip del rango 192.168.0.*
+# bucle por todas las ip del rango 192.x.x.*
 for i in range(1,255):
-    addr="192.168.0.{}".format(i)
+    addr="192.x.x.{}".format(i) #Poner su ip
     for port in ports:
         result=scan(addr, port)
         if result==0:
