@@ -1,5 +1,5 @@
 # MANEJO DE APIs
-Este contenido pretende mostrar los scripts que sirven para realizar la comunicación con APIs
+Este contenido pretende mostrar los scripts que sirven para realizar la comunicación con APIs, en este caso extrayendo información de una página de Pokemons
 ## Descripción
 Se utilizan varias formas para poder establecer conexión con APIs y así utilizar su código para extraer información
 ## Requerimientos
