@@ -1,4 +1,6 @@
-﻿$subred = (Get-NetRoute -DestinationPrefix 0.0.0.0/0).NextHop
+# Daniel Arreaga Escareño
+# 2029652
+$subred = (Get-NetRoute -DestinationPrefix 0.0.0.0/0).NextHop
 Write-Host "Tu gateway:"$subred
 
 $rango = $subred.Substring(0,$subred.IndexOf('.') + 1 + $subred.Substring($subred.IndexOf('.') + 1).IndexOf('.') + 3)
