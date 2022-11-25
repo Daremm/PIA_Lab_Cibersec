@@ -1,5 +1,8 @@
 # MANEJO DE APIs
 Este contenido pretende mostrar los scripts que sirven para realizar la comunicación con APIs
+## Descripción
+Se utilizan varias formas para poder establecer conexión con APIs y así utilizar su código para extraer información
+## Requerimientos
 Para el correcto de funcionamiento de los scripts, además de Python 3, necesitamos:
 - Requests
 - Json
