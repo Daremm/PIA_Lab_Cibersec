@@ -5,6 +5,7 @@ Repositorio de scripts hechos a lo largo del semestre Ago-Dic 2022 de la materia
 ## Descripción
 El propósito de este repositorio es compartir los scripts que he estado haciendo a lo largo del semestre impartido por el profesor Gerardo Bernal Carranza
 aprendiendo y practicando a lo largo de este varios lenguajes y adaptándome a varios entornos nuevos, como Debian 11
+
 ![computerprogramming_1629517_cropped-2816256102](https://user-images.githubusercontent.com/111472552/203875320-104642c4-0637-4f70-a702-e7a2d86b5b41.jpg)
 ## Secciones:
 1. [Manejo de APIs](https://github.com/Daremm/PIA_Lab_Cibersec/tree/main/Manejo_de_API) : Scripts que permiten la conexión con algunas APIs
